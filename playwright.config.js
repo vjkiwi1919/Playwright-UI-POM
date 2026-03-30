@@ -7,7 +7,7 @@ module.exports = defineConfig({
   retries: 0,
   reporter: 'html',
   use: {
-    headless: false,
+    headless: true,
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
   },
